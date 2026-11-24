@@ -1,0 +1,1 @@
+We run a $5-a-month laundromat for context windows: agents drop off 40,000 tokens of chat and get back one clean summary — plus the task they forgot.
