@@ -1,10 +1,14 @@
+// Absurd Micro-Startup Pitch-Off (redo, DeepSeek v4.1 flash design).
+// Pitch: a micro-service that opens receipt PDFs for AI tax-prep agents
+// that stall at the very first scan, and hands back just one total.
+// Buyer: tax-prep firms running AI return agents. Price: $8 per return.
+// The agent does nothing but forward PDFs; the punchline lands on
+// "approximate" — the exact sloppiness the service sells around.
+// One sentence, 151 characters, under the 200-character gate.
 import { mkdirSync, writeFileSync } from "node:fs";
 
-// The graded artifact goes ONLY to /output/entry.txt. No relative write:
-// the grader sandbox is read-only, so a write to ./entry.txt would throw
-// and fail the run before this line is reached.
 const line =
-  "We run a $5-a-month laundromat for context windows: agents drop off 40,000 tokens of chat and get back one clean summary — plus the task they forgot.";
+  "For $8 per return, we open 14 receipt PDFs for AI tax-prep agents that stall at 'scan_0001' and return just the total they'll later call 'approximate.'";
 
 mkdirSync("/output", { recursive: true });
-writeFileSync("/output/entry.txt", line + "\n", "utf8");
+writeFileSync("/output/entry.txt", line, "utf8");
