@@ -1,1 +1,1 @@
-We run a $5-a-month laundromat for context windows: agents drop off 40,000 tokens of chat and get back one clean summary — plus the task they forgot.
+For $8 per return, we open 14 receipt PDFs for AI tax-prep agents that stall at 'scan_0001' and return just the total they'll later call 'approximate.'
